@@ -1,0 +1,183 @@
+---
+layout: default
+title: Facebook Desktop Home Page | 
+permalink: /
+---
+<style>
+  /* Use the existing container as a relative anchor */
+  .hero .container {
+    position: relative;
+  }
+
+  .download-button-overlay {
+    background-color: #0090ff;
+    color: #ffffff !important;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    
+    /* Position it on the far right, vertically centered */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    z-index: 10;
+    transform: translateY(-130px); 
+  }
+
+  .download-button-overlay img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Ensure the text doesn't run into the button on medium screens */
+  .hero-heading, .hero-subheading {
+    white-space: nowrap;
+  }
+</style>
+
+<section class="hero primary">
+  <div class="container">
+    <h2 class="hero-heading">Facebook Desktop</h2>
+    <p class="hero-subheading">Simple, desktop client for Facebook</p>
+
+    <a href="https://github.com/AppsForWindowsDesktop/facebook-desktop/releases/download/1.0/Facebook.desktop.install.exe"
+       class="download-button-overlay">
+       <img src="{{ site.baseurl }}/assets/images/download.png" alt="Download">
+       Download Facebook Desktop
+    </a>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Overview / SEO Intro -->
+<section class="section">
+  <div class="container">
+    <h3>What is Facebook Desktop?</h3>
+    <p>
+      <strong>Facebook Desktop</strong> is an open-source desktop client that enables you to interact with 
+      <em>Facebook</em> platform directly from your computer — without relying solely on the mobile app.
+      Built with ease-of-use in mind, the client works across major Windows versions and brings Facebook features to
+      your desktop workflow.
+    </p>
+
+    <p>
+      Whether you’re a heavy social media user, power user, or simply want a native desktop view of your Facebook
+      timeline, this application gives you the controls and accessibility you need — right from your desktop.
+    </p>
+    <p class="hero-cta">
+      <a href="{{ site.baseurl }}/installation" class="btn btn-lg btn-success">Get Started</a>
+      <a href="{{ site.baseurl }}/downloads" class="btn btn-lg btn-secondary">Downloads & Releases</a>
+    </p>
+
+    <div class="grid">
+      <div class="col-4">
+        <img src="{{ site.baseurl }}/assets/images/facebook-desktop-friends.png" alt="Facebook Desktop Home Feed View" style="width:100%;">
+        <p class="text-center">Facebook Desktop Friends View</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Key Features Section -->
+<section class="section bg-light">
+  <div class="container">
+    <h3>Core Features</h3>
+    <ul>
+      <li><strong>Native Desktop Experience:</strong> Run Facebook outside a browser or mobile environment.</li>
+      <li><strong>Fast & Lightweight:</strong> Desktop-optimized performance for smooth browsing.</li>
+      <li><strong>Responsive UI:</strong> Designed for wide screens and productive workflows.</li>
+      <li><strong>Cross-Windows Support:</strong> Works on all Windows builds.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Why Choose Section -->
+<section class="section">
+  <div class="container">
+    <h3>Why Use Facebook Desktop?</h3>
+    <p>
+      While the Facebook platform is accessible through web browsers, many users prefer a dedicated desktop
+      application that integrates with OS interfaces, notifications, and window management. Facebook Desktop
+      enhances your experience by providing:
+    </p>
+    <ul>
+      <li>Focused environment free from browser UI clutter.</li>
+      <li>Better multi-window support and workflow integration.</li>
+      <li>Quick access to your feed, friends, and posts directly from your system.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Navigation Blocks -->
+<section class="section">
+  <div class="container">
+    <h3>Explore the Project</h3>
+    <div class="grid">
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/installation">📥 Installation</a></h4>
+        <p>Learn how to install and set up Facebook Desktop on your system.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/usage">📖 Usage Guide</a></h4>
+        <p>Step-by-step instructions on using Facebook Desktop daily.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/features">⭐ Features</a></h4>
+        <p>Detailed feature breakdown.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/screenshots">🖼️ Screenshots</a></h4>
+        <p>Visual tour of the interface and key features.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/downloads">⬇️ Downloads</a></h4>
+        <p>Get the latest releases, installers & binaries.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/changelog">📜 Changelog</a></h4>
+        <p>Detailed changelog breakdown.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/contributing">🤝 Contributing</a></h4>
+        <p>How to help improve Facebook Desktop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Other projects Block -->
+<section class="section">
+  <div class="container">
+    <h3>Explore our other projects</h3>
+    <div class="grid">
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/projects">💻🖥 Other Desktop Projects</a></h4>
+        <p>View our other <strong>Desktop projects</strong> that bring popular apps to your Windows PC.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- SEO Footer with keywords -->
+<footer class="section bg-dark text-white">
+  <div class="container">
+    <p>
+      Facebook Desktop | Facebook Desktop Client | Desktop Facebook App | Open Source Social Client |
+      Cross-Platform Desktop Software
+    </p>
+  </div>
+</footer>
+

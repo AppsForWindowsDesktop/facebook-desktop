@@ -1,0 +1,149 @@
+---
+layout: default
+title: Download Facebook Desktop | 
+permalink: /downloads/
+---
+
+<!-- =========================== -->
+<section class="section">
+  <div class="container">
+    <h2>Downloads & Releases</h2>
+    <p>
+      Get the latest version of <strong>Facebook Desktop</strong> for your system. Below you can find the
+      official installs, pre-releases, and build sources.
+    </p>
+  </div>
+</section>
+
+<!-- =========================== -->
+<section class="section bg-light">
+  <div class="container">
+    <h3>Official Releases</h3>
+    <p>
+      Download directly latest version of Facebook Desktop:
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/AppsForWindowsDesktop/facebook-desktop/releases/download/1.0/Facebook.desktop.install.exe">
+          🔗 Download Facebook Desktop 1.0.0 from GitHub
+        </a>
+      </li>
+    </ul>
+    <p>
+      Visit the project’s GitHub Releases page to download installers, builds, and archived versions:
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/AppsForWindowsDesktop/facebook-desktop/releases">
+          🔗 Facebook Desktop on GitHub Releases
+        </a>
+      </li>
+    </ul>
+    <p>
+      On the Releases page you’ll find assets for supported platforms, including:
+    </p>
+    <ul>
+      <li>Windows installer executables</li>
+      <li>Release notes for each version</li>
+    </ul>
+  </div>
+</section>
+
+<!-- =========================== -->
+<section class="section">
+  <div class="container">
+    <h3>Build from Source (Developers & Contributors)</h3>
+    <p>
+      If you’d like to compile Facebook Desktop yourself (for example, to test a feature or help contribute),
+      you can clone the repo and build locally from source:
+    </p>
+    <pre><code>git clone https://github.com/AppsForWindowsDesktop/facebook-desktop.git
+cd facebook-desktop
+msbuild "Facebook desktop\Facebook desktop.sln" /p:Configuration=Release /p:SelfContained=True /p:PackageAsSingleFile=true /t:Publish /p:PublishDir=Publish
+makensis installer_script.nsi</code></pre>
+    <p>
+      This method gives you the latest development builds which may not be published yet on the official
+      releases page.
+    </p>
+  </div>
+</section>
+
+<!-- =========================== -->
+<section class="section bg-light">
+  <div class="container">
+    <h3>Additional Resources</h3>
+    <p>
+      Want the latest updates and changelogs for community-built components or related tools?
+    </p>
+    <ul>
+      <li>
+        Follow the project on GitHub and watch for new release notifications.
+      </li>
+      <li>
+        Check the <a href="{{ site.baseurl }}/changelog">Changelog</a> for historic release info.
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Navigation Blocks -->
+<section class="section">
+  <div class="container">
+    <h3>Explore the Project</h3>
+    <div class="grid">
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/installation">📥 Installation</a></h4>
+        <p>Learn how to install and set up Facebook Desktop on your system.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/usage">📖 Usage Guide</a></h4>
+        <p>Step-by-step instructions on using Facebook Desktop daily.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/features">⭐ Features</a></h4>
+        <p>Detailed feature breakdown.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/screenshots">🖼️ Screenshots</a></h4>
+        <p>Visual tour of the interface and key features.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}">🏠 Home</a></h4>
+        <p>Facebook Desktop homepage.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/changelog">📜 Changelog</a></h4>
+        <p>Detailed changelog breakdown.</p>
+      </div>
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/contributing">🤝 Contributing</a></h4>
+        <p>How to help improve Facebook Desktop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== -->
+<!-- Other projects Block -->
+<section class="section">
+  <div class="container">
+    <h3>Explore our other projects</h3>
+    <div class="grid">
+      <div class="col-4">
+        <h4><a href="{{ site.baseurl }}/projects">💻🖥 Other Desktop Projects</a></h4>
+        <p>View our other <strong>Desktop projects</strong> that bring popular apps to your Windows PC.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================== -->
+<footer class="section bg-dark text-white">
+  <div class="container">
+    <p>
+      Downloads • Facebook Desktop • Facebook Desktop Client Downloads • Open Source Releases
+    </p>
+  </div>
+</footer>
+
